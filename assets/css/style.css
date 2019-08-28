@@ -1,0 +1,37 @@
+.owl-prev {
+	position: absolute;
+	top: 50%;
+	left: 0;
+    margin-left: 15px;
+	color: #fff !important;
+	background: none !important;
+	transform: translateY(-50%);
+}
+.owl-next {
+	position: absolute;
+	top: 50%;
+	right: 0;
+    margin-right: 15px;
+	color: #fff !important;
+	background: none !important;
+	transform: translateY(-50%);
+}
+.owl-prev i,.owl-next i{
+    font-size: 32px !important;
+}
+.texts {
+	position: absolute;
+	bottom: 0px;
+	color: #fff;
+	text-shadow: 0 0 1px #000;
+    padding: 15px;
+}
+@media (min-width:1440px){
+    .pm-owl-carrossel img {
+	height: 20vw;
+	object-fit: cover;
+}
+.owl-prev i,.owl-next i{
+    font-size: 2vw !important;
+}
+}
