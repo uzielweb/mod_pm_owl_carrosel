@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+<field type="media" label="MOD_IMAGE" name="image" description="MOD_IMAGE_DESCRIPTION" directory="" />
+				<field type="text" label="MOD_TITLE" name="title" description="MOD_TITLE_DESCRIPTION" default="" class="" size="32" maxlength="32" filter="" />
+				<field type="text" label="MOD_SUBTITLE" name="subtitle" description="MOD_SUBTITLE_DESCRIPTION" default="" class="" size="32" maxlength="32" filter="" />
+				<field type="textarea" label="MOD_DESCRIPTION" name="description" description="MOD_DESCRIPTION_DESCRIPTION" default="" class="" cols="" rows="" filter="" />
+				<field type="text" label="MOD_LINK" name="link" description="MOD_LINK_DESCRIPTION" default="" class="" size="32" maxlength="32" filter="" />
+	
+</form>
